@@ -33,7 +33,7 @@ $for(header-includes)$
   $header-includes$
 $endfor$
 </head>
-<body>
+<body><div id="container">
 $for(include-before)$
 $include-before$
 $endfor$
@@ -42,12 +42,15 @@ $if(title)$
 	<h1>Publications de l’AIUS</h1>
 
 	<nav>
-		<li><a href="">AIUS</a></li>
-		<li><a href="">Liste des PV</a></li>
-		<li><a href="">$title$</a></li>
+		<ul>
+			<li><a href="">AIUS</a></li>
+			<li><a href="">Liste des PV</a></li>
+			<li><a href="">$title$</a></li>
+		</ul>
 	</nav>
 </header>
 
+<div id="body">
 <h1 class="title">$title$</h1>
 $if(subtitle)$
 <h1 class="subtitle">$subtitle$</h1>
@@ -66,8 +69,14 @@ $toc$
 </nav>
 $endif$
 $body$
+</div>
 $for(include-after)$
 $include-after$
 $endfor$
+<footer>
+	Généré par <a href="http://pandoc.org">pandoc</a>.
+	Approuvé par <a href="http://lukc.upyum.com/tartines">Tartines</a>.
+</footer>
+</div>
 </body>
 </html>
