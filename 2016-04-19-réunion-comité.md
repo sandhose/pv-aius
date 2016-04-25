@@ -282,13 +282,16 @@ Un conseil d’UFR prendra place le 20 avril.
 Fédération Libre/Hack
 ---------------------
 
-Afin de pouvoir faire des évènements mieux calibrés entre les différentes
-associations dans le domaine de l’informatique de Strasbourg, il a été
-décidé de créer un groupe : Fédération Libre/Hack.
+Une fédération de logiciel Libre et de hack est en train d’être fondée à
+Strasbourg, ayant pour but de mieux coordonner des évènements communs
+visant la sensibilisation autours du logiciel Libre ou le développement de
+nouvelles applications.
 
-Pour le moment, la fédération cherche a avoir un local.
+L’AIUS a été invitée à rejoindre cette fédération, qui prendra la forme
+d’un groupe informel, soutenu par LiLo[^LiLo] — *Linux Logistique* — pour les aspects
+administratifs et financiers.
 
-Table: Procédure de vote pour l’adhésion à la fédération Libre/Hack
+Table: Procédure de vote pour l’adhésion à la fédération Libre/hack
 
 Nombre de votants                       **FIXME**
 --------------------------------------- -----------
@@ -330,4 +333,9 @@ Votent pour                             2
 *Fin de la réunion à 19 h 57*
 
 * * *
+
+[^LiLo]: LiLo est l’association qui s’occupe de la présence officielle requise
+pour l’organisation des évènements du LUG de Strasbourg. Les RMLL — *Rencontres
+Mondiales du Logiciel Libre* — ont par exemple été organisées en utilisant
+LiLo.
 
