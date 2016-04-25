@@ -72,7 +72,7 @@ FÉE
 Le wiki sera complété sous peu et une réunion entre les membres de l’ENSIIE,
 M^me^ Fournaise et Phillippine devrait bientôt se dérouler.
 M. Bastoul a été satisfait de voir beaucoup de personne de l’AIUS et de
-l’UFR présentes lors de l’événement.
+l’UFR présentes lors de l’évènement.
 
 Le bilan est donc positif dans l'ensemble, malgré les échanges assez froids entre l’ENSIIE
 et l’AIUS qui ont été relatés lors de la précédente réunion de comité
@@ -95,7 +95,7 @@ moral et financier ont été envoyés par mail.
 Il faudra cependant régler le problème d’ARTEMIS qui ne fonctionait pas sur les machines dont
 nous disposions.
 
-Le bilan est positif, les personnes ont largement apprécié l’événement et
+Le bilan est positif, les personnes ont largement apprécié l’évènement et
 nous avons pu toucher des personnes ne côtoyant pas déjà le monde du JDR.
 
 Évènements à venir
@@ -140,7 +140,7 @@ CA de Mai
 ---------
 
 Une réunion concernant le CA de mai se déroulera jeudi 21 avril, toutes les informations
-y seront données. Les volontaires devront payer les 10 € et s’inscrire à l’événement.
+y seront données. Les volontaires devront payer les 10 € et s’inscrire à l’évènement.
 
 Voyage au CERN
 --------------
