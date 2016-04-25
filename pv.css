@@ -1,7 +1,78 @@
 
-* {
+header {
+	padding-top: 1px;
+
+	background: #EEE;
+
+	background: #FFF url("/aius.svg") no-repeat 13% 8px;
+	background-size: 60px;
+}
+
+header h1 {
+	margin-top: 23px;
+	padding-left: 26%;
+	font-size: 320%;
+} header nav {
+	margin-top: 4px;
+	background: #EDF;
+	padding-left: 8%;
+	margin-top: 23px;
+
+	border-bottom: 1px #BBB solid;
+	border-top: 1px #BBB solid;
+} header nav ul {
 	padding: 0;
 	margin: 0;
-	font: Sans-Serif, 12pt;
+} header nav li {
+	display: inline-block;
+	font-size: 165%;
+} header nav li {
+} header nav a {
+	padding: 6px 8px;
+	display: inline-block;
+	color: #AE3E97;
+} header nav a:hover {
+	color: #FFF;
+	background-color: #AE3E97;
+	text-decoration: none;
+
+}
+
+h1.title {
+	font-size: 275%;
+	text-align: center;
+} h1.subtitle {
+	font-size: 200%;
+	margin-bottom: 26px;
+	text-align: center;
+} h2.author {
+	font-size: 150%;
+	margin: 8px 0;
+	text-align: center;
+}
+
+#body, footer {
+	padding: 0 8%;
+	margin-top: 35px;
+} #body p, #body table {
+	font-size: 13pt;
+} #body table thead {
+	border-bottom: 1px solid #DDD;
+} #body table {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 14px;
+} #body table thead, #body table tbody {
+	padding: 0 10%;
+} #body table td, #body table th {
+	padding: 0.5% 1%;
+} #body ul li {
+	font-size: 13pt;
+}
+
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
