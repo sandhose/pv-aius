@@ -37,7 +37,6 @@ $endfor$
 $for(include-before)$
 $include-before$
 $endfor$
-$if(title)$
 <header>
 	<h1>Publications de l’AIUS</h1>
 
@@ -45,12 +44,15 @@ $if(title)$
 		<ul>
 			<li><a href="">AIUS</a></li>
 			<li><a href="">Liste des PV</a></li>
+$if(title)$
 			<li><a href="">$title$</a></li>
+$endif$
 		</ul>
 	</nav>
 </header>
 
 <div id="body">
+$if(title)$
 <h1 class="title">$title$</h1>
 $if(subtitle)$
 <h1 class="subtitle">$subtitle$</h1>
