@@ -1,25 +1,72 @@
-#!/bin/sh
+#!/bin/zsh
 
-FILE="$1"
+autoload -U colors
+colors
 
-[ "${FILE%.md}" != "${FILE}" ] || {
-	echo "First parameter is not a markdown file." >&2
-	exit 1
+OUTPUT_DIR=.
+typeset -la FILES
+
+function info {
+	echo "${fg_bold[green]}-- ${fg_no_bold[white]}$@${reset_color}"
 }
 
-FILE="${FILE%.md}"
+function usage {
+	echo "usage: $1 [options] <file> [<file> [<file> …] …]"
+	echo
+	echo "options:"
+	echo "  -o <dir>, --output <dir>         Export files to <dir>."
+	echo "  -h, --help                       Prints this message."
+}
 
-: ${OUTPUT_DIR:=$HOME/}
+while (( $# > 0 )); do
+	case "$1" in
+		-h|--help)
+			usage "$0"
+			exit 0
+		;;
+		-o|--output|--output-dir)
+			[[ -n "$2" ]] || {
+				usage "$0"
 
-# FIXME: We need to regenerate the HTML template. For the menu, mostly.
-# FIXME: We also need to generate an index.
+				exit 1
+			}
 
-echo "-- Generating ${FILE}.html"
-pandoc --template template.html ${FILE}.md -o $OUTPUT_DIR/${FILE}.html -N --css=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css --css=pv.css --toc
+			shift 1
+		;;
+		-*)
+			echo "unknown parameter: $1" >&2
 
-echo "-- Generating ${FILE}.7"
-pandoc ${FILE}.md -o ${FILE}.7 -s --toc
+			exit 2
+		;;
+		*)
+			FILES+=("$1")
+		;;
+	esac
 
-echo "-- Generating ${FILE}.pdf"
-pandoc ${FILE}.md --latex-engine=xelatex -H header.tex -o $OUTPUT_DIR/${FILE}.pdf -N -V documentclass=article --toc
+	shift 1
+done
+
+if (( ${#FILES[@]} == 0 )); then
+	usage
+	exit 1
+fi
+
+for FILE in "${FILES[@]}"; do
+	FILE="${FILE%.md}"
+
+	info "Generating ${FILE}.html"
+	pandoc ${FILE}.md -o $OUTPUT_DIR/${FILE}.html \
+		--template template.html -N \
+		--css=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css \
+		--css=pv.css --toc
+
+	info "Generating ${FILE}.7"
+	pandoc ${FILE}.md -o ${FILE}.7 -s --toc
+
+	info "Generating ${FILE}.pdf"
+	pandoc ${FILE}.md -o $OUTPUT_DIR/${FILE}.pdf \
+		--latex-engine=xelatex \
+		-H header.tex \
+		-N -V documentclass=article --toc
+done
 
