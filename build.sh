@@ -17,6 +17,9 @@ FILE="${FILE%.md}"
 echo "-- Generating ${FILE}.html"
 pandoc --template template.html ${FILE}.md -o $OUTPUT_DIR/${FILE}.html -N --css=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css --css=pv.css --toc
 
+echo "-- Generating ${FILE}.7"
+pandoc ${FILE}.md -o ${FILE}.7 -s --toc
+
 echo "-- Generating ${FILE}.pdf"
 pandoc ${FILE}.md --latex-engine=xelatex -H header.tex -o $OUTPUT_DIR/${FILE}.pdf -N -V documentclass=article --toc
 
