@@ -22,12 +22,12 @@ Vote du PV du 22 mars 2016
 
 Table: Procédure de vote du PV du 22 mars 2016
 
-Nombre de votants                       **FIXME**
+Nombre de votants                       11
 --------------------------------------- -----------
 Ne prennent pas part au vote            2
 S’abstiennent                           1
 Votent contre                           1
-Votent pour                             reste
+Votent pour                             7
 
 Démission
 =========
@@ -44,12 +44,12 @@ depuis son élection au poste de CM ROOT.
 
 Table: Prodécure de vote pour la nomination du vice-ROOT
 
-Nombre de votants                       **FIXME**
+Nombre de votants                       11
 --------------------------------------- -----------
 Ne prennent pas part au vote            0
 S’abstiennent                           0
 Votent contre                           1
-Votent pour                             reste
+Votent pour                             10
 
 Motif du vote contre : « il a un Mac® ».
 
@@ -104,11 +104,19 @@ nous avons pu toucher des personnes ne côtoyant pas déjà le monde du JDR.
 sxb.so
 ------
 
-Il y aura trois mini conférences (voir mail pour les 3 confs) d’une durée
-de 20 minutes chacune, suivies d’un temps déstiné à programmer et donner
-des exemples. Ce format est déjà appliqué dans certaines conventions. **FIXME**
+Il y aura trois mini conférences d’une durée
+de 20 minutes chacune, suivies d’un temps destiné à programmer et donner
+des exemples. La durée des conférences a été choisie car c’est un format
+éprouvé, déjà utilisé dans plusieurs conventions régulières visant un public
+de développeurs.
 
-Il y aura trois intervenants de la DI (mail pour les noms). **FIXME**
+Table: Liste des conférences sxb.so
+
+Titre                                     Conférencier
+----------------------------------------- -------------------
+Les bases du shell et Vim                 Marc Chantreux, dit *eiro*
+L’autohébergement, pourquoi c’est cool ?  Philippe Pitolli, dit *karchnu*
+Introduction à Perl 5                     Julien Simonnet, dit *jsimonnet*
 
 Nous invitons les membres a faire la promotion de l’évènement auprès des
 étudiants de l’UFR.
@@ -293,12 +301,12 @@ administratifs et financiers.
 
 Table: Procédure de vote pour l’adhésion à la fédération Libre/hack
 
-Nombre de votants                       **FIXME**
+Nombre de votants                       11
 --------------------------------------- -----------
 Ne prennent pas part au vote            0
 S’abstiennent                           0
 Votent contre                           0
-Votent pour                             reste
+Votent pour                             11
 
 Divers
 ======
@@ -321,11 +329,11 @@ reprendre le premier logo et de lancer la confection des pulls.
 
 Table: Procédure de vote pour l’adhésion de l’AIUS au projet
 
-Nombre de votants                       **FIXME**
+Nombre de votants                       11
 --------------------------------------- -----------
 Ne prennent pas part au vote            1
 S’abstiennent                           2
-Votent contre                           7
+Votent contre                           6
 Votent pour                             2
 
 * * *
