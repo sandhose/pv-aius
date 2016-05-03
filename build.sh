@@ -31,6 +31,8 @@ while (( $# > 0 )); do
 				exit 1
 			}
 
+			OUTPUT_DIR="$2"
+
 			shift 1
 		;;
 		-*)
@@ -61,7 +63,7 @@ for FILE in "${FILES[@]}"; do
 		--css=pv.css --toc
 
 	info "Generating ${FILE}.7"
-	pandoc ${FILE}.md -o ${FILE}.7 -s --toc
+	pandoc ${FILE}.md -o $OUTPUT_DIR/${FILE}.7 -s --toc
 
 	info "Generating ${FILE}.pdf"
 	pandoc ${FILE}.md -o $OUTPUT_DIR/${FILE}.pdf \
