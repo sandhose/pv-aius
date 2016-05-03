@@ -83,12 +83,12 @@ function block {
 		echo
 	done
 	echo
-} > .tmp.md
+} > $OUTPUT_DIR/.tmp.md
 
 echo "-- Generating index.html"
-pandoc --template template.html .tmp.md -o $OUTPUT_DIR/index.html -N \
+pandoc --template template.html $OUTPUT_DIR/.tmp.md -o $OUTPUT_DIR/index.html -N \
 	--css=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css \
 	--css=pv.css --toc
 
-rm .tmp.md
+rm $OUTPUT_DIR/.tmp.md
 
