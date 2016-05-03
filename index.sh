@@ -1,9 +1,52 @@
 #!/bin/zsh
 
-: ${OUTPUT_DIR:=./}
-
 # FIXME: We need to regenerate the HTML template. For the menu, mostly.
 # FIXME: We also need to generate an index.
+
+autoload -U colors
+colors
+
+OUTPUT_DIR=.
+typeset -la FILES
+
+function info {
+	echo "${fg_bold[green]}-- ${fg_no_bold[white]}$@${reset_color}"
+}
+
+function usage {
+	echo "usage: $1 [options] <file> [<file> [<file> …] …]"
+	echo
+	echo "options:"
+	echo "  -o <dir>, --output <dir>         Export files to <dir>."
+	echo "  -h, --help                       Prints this message."
+}
+
+while (( $# > 0 )); do
+	case "$1" in
+		-h|--help)
+			usage "$0"
+			exit 0
+		;;
+		-o|--output|--output-dir)
+			[[ -n "$2" ]] || {
+				usage "$0"
+
+				exit 1
+			}
+
+			OUTPUT_DIR="$2"
+
+			shift 1
+		;;
+		*)
+			echo "unknown parameter: $1" >&2
+
+			exit 2
+		;;
+	esac
+
+	shift 1
+done
 
 # Needed because of unicode…
 function block {
