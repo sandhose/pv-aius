@@ -65,6 +65,15 @@ for FILE in "${FILES[@]}"; do
 	info "Generating ${FILE}.7"
 	pandoc ${FILE}.md -o $OUTPUT_DIR/${FILE}.7 -s --toc
 
+	info "Generating ${FILE}.docx"
+	pandoc ${FILE}.md -o $OUTPUT_DIR/${FILE}.docx -s --toc
+
+	info "Generating ${FILE}.odt"
+	pandoc ${FILE}.md -o $OUTPUT_DIR/${FILE}.odt -s --toc
+
+	info "Generating ${FILE}.epub"
+	pandoc ${FILE}.md -o $OUTPUT_DIR/${FILE}.epub -s --toc
+
 	info "Generating ${FILE}.pdf"
 	pandoc ${FILE}.md -o $OUTPUT_DIR/${FILE}.pdf \
 		--latex-engine=xelatex \
