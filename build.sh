@@ -78,6 +78,7 @@ for FILE in "${FILES[@]}"; do
 	pandoc ${FILE}.md -o $OUTPUT_DIR/${FILE}.pdf \
 		--latex-engine=xelatex \
 		-H header.tex \
+		--template template.tex \
 		-N -V documentclass=article --toc
 done
 
