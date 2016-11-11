@@ -64,24 +64,27 @@ function block {
 
 {
 	echo
-	printf "%-120s %-120s %-120s\n" "Document" "pdf" "man"
+	printf "%-120s %-120s %-120s %-120s\n" "Date" "Document" "pdf" "man"
 
-	for j in {1..3}; do
+	for j in {1..4}; do
 		S=""
 		for i in {1..120}; do
 			S="${S}-"
 		done
-		(( $j < 3 )) && echo -n "$S "
+		(( $j < 5 )) && echo -n "$S "
 	done
 	echo
 
 	for i in *.md; do
 		f=${i%.md}
-		block 121 "[${f}](${f}.html)"
+		title="$(sed -n '/^title: /{s/^title: *//;p;q}' ${i})"
+		date="$(sed -n '/^date: /{s/^date: *//;s/^"\(.*\)"$/\1/;p;q}' ${i})"
+		block 121 "$date"
+		block 121 "[${title}](${f}.html)"
 		block 121 "[pdf]($f.pdf)"
 		block 121 "[man]($f.7)"
 		echo
-	done
+	done | sort -r
 	echo
 } > $OUTPUT_DIR/.tmp.md
 

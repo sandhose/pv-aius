@@ -1,6 +1,7 @@
 ---
-title: Réunion de Comité du 19 avril 2016
+title: Réunion de Comité
 subtitle: Procès Verbal
+date: "`2016-04-19T18:00:00GMT+2`"
 author:
 - Guillaume <span style="font-variant:small-caps;">Grosshenny</span>
 - Luka <span style="font-variant:small-caps;">Vandervelden</span>
