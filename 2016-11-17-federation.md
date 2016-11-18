@@ -1,6 +1,7 @@
 ---
-title: "Réunion de Fédération de Logiciel Libre et bidouille"
-date: "`2016-11-17T18:27:00GMT+2`"
+title: Réunion de Fédération de Logiciel Libre
+subtitle: Procès Verbal
+date: "`2016-11-17T18:27:00GMT+1`"
 author:
 - Nicolas <span style="font-variant:small-caps;">Argyriou</span>
 - Luka <span style="font-variant:small-caps;">Vandervelden</span>
