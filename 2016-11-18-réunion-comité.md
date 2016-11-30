@@ -28,9 +28,9 @@ author:
 
 # Tour de table
 
-18 votes au pôle API sur le campus d’Illkirch pour les élections de bla bla mentionnées par Tarek.
+Tarek mentionne que 18 votes ont été effectués au pôle API sur le campus d’Illkirch.
 
-Le Sympa est réparé.
+Quentin annonce que Sympa — l’outil de gestion de nos mailing lists — est réparé.
 
 # Vote du PV du 04 octobre 2016
 
@@ -55,7 +55,7 @@ Faut qu'ils se démerdent pour les courses.
 
 ## Petits pains
 
-Pas de problème majeur.
+Le service est assuré sans problème majeur.
 
 Il a été mentionné qu’être présent à 7 h 30 strict n’est pas nécessaire pour s’occuper des petits pains.
 
