@@ -206,12 +206,19 @@ $if(title)$
 \title{$title$$if(thanks)$\thanks{$thanks$}$endif$}
 $endif$
 $if(subtitle)$
-\providecommand{\subtitle}[1]{}
+\providecommand{\subtitle}[1]{%
+	\usepackage{titling}
+	\posttitle{%
+		\par\large#1\end{center}
+		\vspace{4mm}
+	}
+}
 \subtitle{$subtitle$}
 $endif$
 $if(author)$
 \author{$for(author)$$author$$sep$ \and $endfor$}
 $endif$
+
 $if(institute)$
 \providecommand{\institute}[1]{}
 \institute{$for(institute)$$institute$$sep$ \and $endfor$}

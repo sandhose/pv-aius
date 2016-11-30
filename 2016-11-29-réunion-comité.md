@@ -1,5 +1,6 @@
 ---
 title: Réunion de comité
+subtitle: Procès verbal
 date: "`2016-11-29T20:19:00`"
 author:
 - Luka <span style="font-variant:small-caps;">Vandervelden</span>

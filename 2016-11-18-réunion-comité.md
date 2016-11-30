@@ -1,6 +1,6 @@
 ---
-title: Réunion de Comité
-subtitle: Procès Verbal
+title: Réunion de comité
+subtitle: Procès verbal
 date: "`2016-11-18T17:57:00`"
 author:
 - Nicolas <span style="font-variant:small-caps;">Argyriou</span>
