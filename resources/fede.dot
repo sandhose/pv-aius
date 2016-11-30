@@ -1,0 +1,17 @@
+
+digraph {
+	Etudiant[label="Étudiant"]
+	AIUS [label="AIUS\nAssociation locale"]
+	AFGES [label="AFGES\nFédération territoriale"]
+	AFNEUS [label="AFNEUS\nFédération des étudiants en sciences"]
+	FAGE [label="FAGE\nFédération nationnale"]
+
+	AFNEUS -> FAGE
+	AFGES -> FAGE
+
+	AIUS -> AFNEUS
+	AIUS -> AFGES
+
+	Etudiant -> AIUS
+}
+
