@@ -34,14 +34,14 @@ Contre              1
 Ne prend pas part   0
 -----------------   -----------
 
-# Événements passés
+# Évènements passés
 
 ## DDD
 
 Quelques soucis mineurs.
 
 S’est mieux passé que l’année dernière.
-L’installation a été suffisamment faite à l’avance pour anticiper les problèmes techniques.
+L’installation a été faite suffisamment en avance pour anticiper les problèmes techniques.
 
 Le wiki sera mis à jour pour l’année suivante.
 
@@ -110,7 +110,7 @@ La communication est organisée par l’ADEM.
 Il faudra des volontaires pour servir les boissons, le vin chaud et préparer la nourriture.
 
 Le pot se déroulera sous le GAM.
-Il faudra cependant penser à vérifier qu’il n’y a pas d’examen dans le GAM à l’heure du début du pot.
+Il faudra cependant penser à vérifier qu’il n’y ait pas d’examen dans le GAM à l’heure du début du pot.
 
 > « J’ai contacté le responsable de l’ADEM, on est les meilleurs amis du monde. »
 -- Lucile
@@ -163,7 +163,7 @@ Philippine sera responsable du projet.
 
 Une demande sera faite à la Direction Informatique pour potentiellement obtenir un nouveau serveur.
 
-Lucile s’occupe d’émettre la demande au responsable de la Direction Informatique qui s’occupe de les traiter.
+Lucile s’occupera d’émettre la demande au responsable de la Direction Informatique qui s’occupe de les traiter.
 
 # Représentation
 
