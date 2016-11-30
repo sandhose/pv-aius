@@ -12,7 +12,7 @@ author:
 
 Halter — trésorier — signale que les erreurs de caisse positives restent fréquentes, et que les personnes tenant la caisse doivent être vigilantes.
 
-# Procès verbal de la réunion du 18 novembre 2016
+# Procès verbal du 18 novembre 2016
 
 Le procès verbal n’ayant pas encore été publié, il sera voté lors de la réunion suivante.
 
