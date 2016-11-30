@@ -32,7 +32,7 @@ Tarek mentionne que 18 votes ont été effectués au pôle API sur le campus d�
 
 Quentin annonce que Sympa — l’outil de gestion de nos mailing lists — est réparé.
 
-# Vote du PV du 04 octobre 2016
+# Procès verbal du 04 octobre 2016
 
 --------------  ---
 Pour            D
@@ -231,9 +231,9 @@ Quentin nous annonce que la chose est désormais faisable.
 
 ## AFGES
 
-L’Association Fédérative Générale des Étudiants de Strasbourg est la fédération étudiante territoriale locale.
+L’AFGES — *Association Fédérative Générale des Étudiants de Strasbourg* — est la fédération étudiante territoriale locale.
 
-L’AIUS est membre direct de l’AFGES.
+L’AIUS est un membre direct de l’AFGES.
 Chaque adhérent à l’AIUS est donc un adhérent à l’AFGES.
 
 ![Graphe des adhésions de l’AIUS](resources/fede.png)
@@ -242,19 +242,18 @@ La vocation de l’AFGES est d’assurer la défense des étudiants au niveau de
 Elle est plus en mesure d’effectuer une défense efficace des étudiants en raison de sa taille.
 Elle nous permet d'avoir une représentation et un corps de bénévoles plus importants que ceux de l’AIUS seule, du fait du réseau d'adhérents, comptant une trentaine d'associations. 
 
-L'administration de l'AFGES fonctionne structurellement de manière similaire à celle de l’AIUS.
-Elle comporte un bureau.
-Le président de chaque associations adhérentes font partie du collège général.
-Dès qu'il y a une décision à prendre au réseau de l'AFGES qui peut avoir un impact sur l'AIUS et ses étudiants,
-Le collège général vote d'un côté et le collège fédéral (bureau + comité de l'afges) vote de l'autre.
+L’AFGES comporte un bureau et un comité, ayant une structure identique au bureau et au comité de l’AIUS.
+Le bureau et le comité de l’AFGES sont nommés le *collège général*.
+L’AFGES comporte également un collège générale, composé des présidents des associations membres.
+Toute décision prise par l’AFGES pour son réseau entier se fait après un vote d’approbation du collège général et du collège fédéral.
+Les deux collèges votent séparément.
 
+Les membres de l’AIUS sont encouragés à participer aux CA — Conseils d’Administration — de l’AFGES et aux week-ends de formation de l’AFGES.
 
-Also, faudra déplacer une partie de ça dans la zone commune de « Représentation », juste avant « AFGES ».
-
-Les membres de l’AIUS sont également encouragés à participer aux CA — Conseils d’Administration — de l’AFGES et aux week-ends de formation de l’AFGES.
-
-Il y a eu un CA très long avec beaucoup de discussions sur beaucoup de points, La politique générale de l’AFGES a été approuvée.
+Il y a eu un CA très long avec beaucoup de discussions sur beaucoup de points.
+La politique générale de l’AFGES y a été approuvée.
 Le vote du bulletin financier a été reporté au prochain CA.
+
 Les élections CROUS ont été remportées par l'AFGES avec 5 sièges sur 6, le 6e étant l'alliance UNEF/UNI.
 
 ## AFNEUS
