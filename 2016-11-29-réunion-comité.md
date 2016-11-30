@@ -9,7 +9,7 @@ author:
 
 # Tour de table
 
-Halter — trésorier — signale que les erreurs de caisse positives restent fréquente, et que les personnes tenant la caisse doivent être vigilantes.
+Halter — trésorier — signale que les erreurs de caisse positives restent fréquentes, et que les personnes tenant la caisse doivent être vigilantes.
 
 # Procès verbal de la réunion du 18 novembre 2016
 
@@ -34,14 +34,14 @@ Contre              1
 Ne prend pas part   0
 -----------------   -----------
 
-# Evénements passés
+# Événements passés
 
 ## DDD
 
 Quelques soucis mineurs.
 
 S’est mieux passé que l’année dernière.
-L’installation a été suffisemment faite à l’avance pour anticiper les problèmes techniques.
+L’installation a été suffisamment faite à l’avance pour anticiper les problèmes techniques.
 
 Le wiki sera mis à jour pour l’année suivante.
 
@@ -55,7 +55,7 @@ L’évènement est donc un succès.
 
 # Services
 
-## Grande Bibliothèque pédagogique Libre
+## Grande Bibliothèque Pédagogique Libre
 
 Le contrat de cession sera disponible d’ici la fin de la semaine, et les professeurs pourront être contactés dès la semaine suivante pour commencer à remplir la Grande Bibliothèque.
 
@@ -110,7 +110,7 @@ La communication est organisée par l’ADEM.
 Il faudra des volontaires pour servir les boissons, le vin chaud et préparer la nourriture.
 
 Le pot se déroulera sous le GAM.
-Il faudra cependant penser à vérifier qu’il n’y a pas d’examun dans le GAM à l’heure du début du pot.
+Il faudra cependant penser à vérifier qu’il n’y a pas d’examen dans le GAM à l’heure du début du pot.
 
 > « J’ai contacté le responsable de l’ADEM, on est les meilleurs amis du monde. »
 -- Lucile
@@ -135,7 +135,7 @@ Une semaine sur deux, l’évènement sera un atelier sxb.so, et l’autre semai
 
 ## Repas de cohésion
 
-Organiser un repas de cohésion après les examuns est préférable.
+Organiser un repas de cohésion après les examens est préférable.
 
 Le repas de cohésion sera organisé chez Quentin. 
 Avec du fromage fondu, beaucoup de fromage fondu.
@@ -169,23 +169,23 @@ Lucile s’occupe d’émettre la demande au responsable de la Direction Informa
 
 ## AFGES
 
-Les résultats des dernières élections — centrale et CROUS — sont favorables à l’AFGES, avec 72 % et 69 % des voix respectivement.
+Les résultats des dernières élections — centrales et CROUS — sont favorables à l’AFGES, avec 72 % et 69 % des voix respectivement.
 
-Il y a eu 38 % de participation aux centraux à l’UFR de Math-Info, ce qui fait de l’UFR la première en terme de participations.
+Il y a eu 38 % de participation aux centraux à l’UFR de Math-Info, ce qui fait de l’UFR la première en termes de participation.
 L’EOST a été seconde.
 
-Merci a tout les bénévoles qui ont tracté ou fait des crêpes.
+Merci à tous les bénévoles qui ont tracté ou fait des crêpes.
 
 ## AFNEUS
 
-Un CA de l’AFNEUS a eu lieu les 22 et 23 novembre a distance.
+Un CA de l’AFNEUS a eu lieu les 22 et 23 novembre à distance.
 
 # Divers
 
-Un petit/mini/choupi Noël secrêt sera organisé.
+Un petit/mini/choupi Noël secret sera organisé.
 Lucile est chargée de la réalisation du projet.
 
-Agathe Walter sera notre suivi après de l’AFGES.
+Agathe Walter sera notre suivi auprès de l’AFGES.
 Le suivi de l’AFNEUS est encore attendu.
 
 ---
