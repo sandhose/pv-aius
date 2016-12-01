@@ -47,7 +47,7 @@ Marcel a été nommé « chargé de mission aux mathématiques », afin d'ai
 
 # Illkirch
 
-Ca va mais les votes y'aura personne la semaine prochaine.
+Ça va mais les votes y'aura personne la semaine prochaine.
 
 Faut qu'ils se démerdent pour les courses.
 
