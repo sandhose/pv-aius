@@ -9,9 +9,25 @@ author:
 ...
 
 
-Membres présents : GROSSHENNY Guillaume, HALTER Nicolas, WEISSGERBER Thomas, RITTER Morgane,KOMMER Marie-France, GLIECH Quentin, OUESLATI Lucile, ARGYRIOU Nicolas, STEIN Eloïse
-Chargés de mission : VANDERVELDEN Luka, VO VIET ANH Harmonie, ROUSSEAU Phillippine
-Invités : LAFORÊT Nicolas, BACH Coralie
+**Membres présents :**
+Guillaume <span style="font-variant:small-caps;">Grosshenny</span>,
+Nicolas <span style="font-variant:small-caps;">halter</span>,
+Thomas <span style="font-variant:small-caps;">Weissgerber</span>,
+Morgane <span style="font-variant:small-caps;">Ritter</span>,
+Marie-France <span style="font-variant:small-caps;">Kommer</span>,
+Quentin <span style="font-variant:small-caps;">Gliech</span>,
+Lucile <span style="font-variant:small-caps;">Oueslati</span>,
+Nicolas <span style="font-variant:small-caps;">Argyriou</span>,
+Eloïse <span style="font-variant:small-caps;">Stein</span>
+
+**Chargés de mission :**
+Luka <span style="font-variant:small-caps;">Vandervelden</span>,
+Harmonie <span style="font-variant:small-caps;">Vo Viet Anh</span>,
+Phillippine <span style="font-variant:small-caps;">Rousseau</span>
+
+**Invités :**
+Nicolas <span style="font-variant:small-caps;">Laforêt</span>,
+Coralie <span style="font-variant:small-caps;">Bach</span>
 
 ---
 
