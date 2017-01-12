@@ -8,6 +8,11 @@ author:
 - Nicolas <span style="font-variant:small-caps;">Argyriou</span>
 ...
 
+
+Membres présents : GROSSHENNY Guillaume, HALTER Nicolas, WEISSGERBER Thomas, RITTER Morgane,KOMMER Marie-France, GLIECH Quentin, OUESLATI Lucile, ARGYRIOU Nicolas, STEIN Eloïse
+Chargés de mission : VANDERVELDEN Luka, VO VIET ANH Harmonie, ROUSSEAU Phillippine
+Invités : LAFORÊT Nicolas, BACH Coralie
+
 ---
 
 *Début de la réunion à 18 h 19.*
